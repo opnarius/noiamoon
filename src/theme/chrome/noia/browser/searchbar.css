@@ -5,6 +5,7 @@
 .searchbar-textbox {
   min-width: 110px;
   margin: 0 3px 0 2px;
+  font-size: larger;
 }
 
 .searchbar-engine-button {

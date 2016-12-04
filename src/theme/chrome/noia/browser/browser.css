@@ -53,8 +53,9 @@ toolbox {
 /* Taille de la barre de navigation */
 #nav-bar { 
   -moz-appearance: none ;
-  margin: 0 ;  
-  padding: 2px 0 2px 0 ;  
+  margin-top: -4px !important;
+  margin-bottom: -4px !important; 
+  padding: 0px 0 0px 0 ;  
   border : none;
 } 
 #PersonalToolbar {
@@ -2478,7 +2479,8 @@ tabpanels browser,
 /* Tabs */
 
 #TabsToolbar{
-	background-image : url("chrome://browser/skin/icons/Tabbar-background.png");  /* For compatibility with Tab Mix Plus and Tab utilities : tabs bottom */  
+	background-image : url("chrome://browser/skin/icons/Tabbar-background.png");  /* For compatibility with Tab Mix Plus and Tab utilities : tabs bottom */
+  margin-bottom: -2px !important;  
 }
 
 #main-window[sizemode="normal"][inFullscreen]  #TabsToolbar:not([treestyletab-mode="vertical"]):not([orient="vertical"]),
@@ -2513,7 +2515,7 @@ tabpanels browser,
 	margin-top : 0px;
 	margin-right : 0px;
 	margin-left : 0px;
-	padding-top : 1px;
+	padding-top : 0px;
 	padding-left : 0px;
 	 box-shadow: none;
 }
@@ -2524,7 +2526,7 @@ tabpanels browser,
 }
 
 #main-window[sizemode="maximized"]:not([tabsintitlebar]) #navigator-toolbox[tabsontop="true"] > #toolbar-menubar[autohide="true"] ~ #TabsToolbar .tabbrowser-tab {
-  margin-top : 2px;
+  margin-top : 1px;
 }
 
 #main-window[sizemode="normal"] #navigator-toolbox[tabsontop="true"] > #toolbar-menubar[autohide="true"] ~ #TabsToolbar {
