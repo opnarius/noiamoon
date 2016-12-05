@@ -1,0 +1,19 @@
+{
+  "name": "noiamoon",
+  "version": "1.0.0",
+  "description": "![Preview](http://i66.tinypic.com/2d457n.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opnarius/noiamoon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opnarius/noiamoon/issues"
+  },
+  "homepage": "https://github.com/opnarius/noiamoon#readme"
+}
