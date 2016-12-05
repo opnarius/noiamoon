@@ -4,7 +4,11 @@
   "description": "![Preview](http://i66.tinypic.com/2d457n.png)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile-clean": "rimraf src/theme.xpi && rimraf src/options.xpi ",
+    "compile-theme": "winrar a -afzip -r -ep1 src/theme.xpi src/theme/*",
+    "compile-options": "winrar a -afzip -r -ep1 src/options.xpi src/options/*",
+    "compile-pack": "rimraf src/noia.xpi && winrar a -afzip -ep1 src/noia.xpi src/install.rdf src/*.xpi",
+    "release": "npm run compile-clean && npm run compile-theme && npm run compile-options && npm run compile-pack && npm run compile-clean"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/opnarius/noiamoon/issues"
   },
-  "homepage": "https://github.com/opnarius/noiamoon#readme"
+  "homepage": "https://github.com/opnarius/noiamoon#readme",
+  "dependencies": {
+    "rimraf": "^2.5.4"
+  }
 }
