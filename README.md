@@ -8,3 +8,7 @@ Simply download the contents of the "src" folder  and pack the contents of both 
 
 ## Download
 You can grab the latest release either from the Releases section of this repository, or the [Pale Moon Add-Ons Site](https://addons.palemoon.org/themes/complete/noia-moon-theme/).
+
+## Other fixes
+
+youtude user agent string: `Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0 PaleMoon/27.0.0`
