@@ -19,3 +19,4 @@ You can grab the latest release either from the Releases section.
 ## Other fixes
 
 youtude user agent string: `Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0 PaleMoon/27.0.0`
+general.useragent.override.servethehome.com: `Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.9) Gecko/20100101 Firefox/52.9 (Pale Moon)`
